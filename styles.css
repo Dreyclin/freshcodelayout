@@ -53,6 +53,13 @@ a {
 .second-subtitle {
     color: #73A6B1;
     font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.title {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    text-transform: uppercase;
 }
 
 /* Header Styles */
@@ -88,92 +95,146 @@ a {
 
 /* Description Screen */
 
-.description-screen {
-}
-
 .description-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .description-centered-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     padding: 10rem 10rem;
     grid-gap: 0.9rem;
-}
-
-.description-title {
-    font-size: 3.75rem;
+    max-width: 60%;
 }
 
 .description-subtitle {
     font-size: 1.68rem;
+    line-height: 2rem;
+}
+
+.description-column {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 3.12rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .description-block {
+    padding: 2.5rem 0;
+    background-color: #F1FDFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .description-block-content {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-gap: 0.62rem;
 }
 
 .description-block-title {
+    font-size: 2.87rem;
+    line-height: 3.43rem;
+    text-transform: uppercase;
 }
 
 .description-block-text {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
 }
 
 .description-block-image {
+    border-radius: 10px;
 }
 
 .description-screen-button {
+    margin: 0 0 10rem 0;
 }
 
 /* Our Mission Screen */
 
 .our-mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 
 .our-mission-block {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5.62rem 3.67rem;
+    background-color: #F1FDFF;
 }
 
 .our-mission-text {
+    font-size: 1.68rem;
+    line-height: 2rem;
+    max-width: 40%;
+}
+
+.our-mission-images-container {
+    min-width: 30%;
+    position: relative;
 }
 
 .our-mission-image {
+    position: absolute;
+    /* top: -19.2rem;
+    right: 3.87rem; */
+    bottom: -93%;
+    z-index: 2;
+
+}
+
+.our-mission-image-background {
+    position: absolute;
+    z-index: 1;
+    bottom: -70%;
+    left: -30%;
 }
 
 /* Support Screen */
 
 .support {
-}
-
-.support-header {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 3.12rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .support-title {
-}
-
-.support-subtitle {
+    margin: 0 0 0.9rem 0;
 }
 
 .support-goal {
+    text-align: center;
 }
 
 .goal-title {
+    margin: 0 0 1.06rem 0;
 }
 
 .goal-millions {
+    border-right: 2px solid #9AD2DE;
 }
 
 .goal-numbers {
+    padding: 0 0.8rem;
 }
 
 .goal-thousands {
-}
-
-.goal-hundrers {
+    border-right: 2px solid #9AD2DE;
 }
 
 /* Footer */
