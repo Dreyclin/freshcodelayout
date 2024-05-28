@@ -309,14 +309,14 @@ form {
 .form-controls input {
     background-color: #F9FADF;
     border: none;
-    padding: 1.31rem 0;
+    padding: 1.31rem 2.68rem;
     border-radius: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #000;
+    font-family: Montserrat;
 }
 
 .form-controls input::placeholder {
-    padding: 1.31rem 2.68rem;
-    line-height: 1.5rem;
     color: #000;
-    font-size: 1.25rem;
-    font-family: Montserrat;
 }
