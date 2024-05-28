@@ -36,7 +36,7 @@ a {
     text-transform: uppercase;
     background-color: #7AE5FD;
     border-radius: 2rem;
-    padding: 1rem 2rem;
+    padding: 1.31rem 2.18rem;
     border: none;
     font-size: 1.2rem;
     font: inherit;
@@ -46,8 +46,17 @@ a {
     background-color: #fff;
 }
 
+.section-button {
+    margin: 0 0 10rem 0;
+}
+
 .main-subtitle {
     font-size: 1.2rem;
+}
+
+.subtitle {
+    font-size: 1.68rem;
+    line-height: 2rem;
 }
 
 .second-subtitle {
@@ -60,6 +69,11 @@ a {
     font-size: 3.75rem;
     line-height: 4.5rem;
     text-transform: uppercase;
+}
+
+.text {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
 }
 
 /* Header Styles */
@@ -110,11 +124,6 @@ a {
     max-width: 60%;
 }
 
-.description-subtitle {
-    font-size: 1.68rem;
-    line-height: 2rem;
-}
-
 .description-column {
     display: flex;
     flex-direction: column;
@@ -145,17 +154,8 @@ a {
     text-transform: uppercase;
 }
 
-.description-block-text {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-}
-
 .description-block-image {
     border-radius: 10px;
-}
-
-.description-screen-button {
-    margin: 0 0 10rem 0;
 }
 
 /* Our Mission Screen */
@@ -239,6 +239,84 @@ a {
 
 /* Footer */
 
-.contacts {
+footer {
+    background-color: #F9FADF;
+    padding: 0 0 10rem 0;
+}
 
+.contacts {
+    padding: 3.12rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+}
+
+.contacts-header {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts-phone {
+    width: 50%;
+}
+
+.phone-logo {
+    margin: 0 0 0.56rem 0;
+}
+
+.phone-number {
+    font-weight: 800;
+}
+
+.socials-logo-container {
+    display: flex;
+    grid-gap: 1rem;
+}
+
+.social-logo {
+    margin: 0 0.25rem 0 0;
+}
+
+.form-container {   
+    margin: 3.12rem 0 0 0;
+    background-color: #fff;
+    padding: 3.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2.43rem;
+}
+
+.form-controls {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.93rem;
+}
+
+.form-controls input {
+    background-color: #F9FADF;
+    border: none;
+    padding: 1.31rem 0;
+    border-radius: 2rem;
+}
+
+.form-controls input::placeholder {
+    padding: 1.31rem 2.68rem;
+    line-height: 1.5rem;
+    color: #000;
+    font-size: 1.25rem;
+    font-family: Montserrat;
 }
