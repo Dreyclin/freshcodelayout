@@ -5,64 +5,175 @@ body {
     font-family: 'Montserrat';
 }
 
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 2.5rem 0;
+    justify-content: space-between;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.button {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1.2rem;
+    font: inherit;
+}
+
+.white-button {
+    background-color: #fff;
+}
+
+.main-subtitle {
+    font-size: 1.2rem;
+}
+
+.second-subtitle {
+    color: #73A6B1;
+    font-size: 1.2rem;
+}
 
 /* Header Styles */
-
-.logo {
-
-}
-
-.menu-list {
-
-}
-
-.menu-item {
-
-}
 
 
 /* First Screen */
 
 .first-screen {
+    background-image: url("./assets/images/First_Screen/first_screen_background.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 0.9;
+}
 
+.first-screen .centered-block {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 30%;
+    grid-gap: 1.2rem;
+}
+
+.main-title {
+    font-size: 4.06em;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 /* Description Screen */
 
 .description-screen {
+}
 
+.description-header {
+}
+
+.description-centered-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 10rem;
+    grid-gap: 0.9rem;
 }
 
 .description-title {
+    font-size: 3.75rem;
+}
 
+.description-subtitle {
+    font-size: 1.68rem;
 }
 
 .description-block {
+}
 
+.description-block-content {
+}
+
+.description-block-title {
+}
+
+.description-block-text {
+}
+
+.description-block-image {
+}
+
+.description-screen-button {
 }
 
 /* Our Mission Screen */
 
 .our-mission {
-
 }
 
 .our-mission-block {
+}
 
+.our-mission-text {
+}
+
+.our-mission-image {
 }
 
 /* Support Screen */
 
 .support {
+}
 
+.support-header {
 }
 
 .support-title {
+}
 
+.support-subtitle {
 }
 
 .support-goal {
+}
 
+.goal-title {
+}
+
+.goal-millions {
+}
+
+.goal-numbers {
+}
+
+.goal-thousands {
+}
+
+.goal-hundrers {
 }
 
 /* Footer */
